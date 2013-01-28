@@ -33,7 +33,7 @@ function ra_wp_nav_menu_filter( $content, $args ) {
 	
 	$registered = get_registered_nav_menus();
 	$current = array_slice( $registered, absint( $slot - 1 ), 1 );
-	if( empty( $current ) || empty( $current[$args->theme_location] ) )
+	if( empty( $current ) )
 		return $content;
 		
 	if( !is_main_site() ) {
