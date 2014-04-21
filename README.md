@@ -1,7 +1,5 @@
-network-wide-menu
-=================
-
 Network Wide Menu for WordPress Networks
+=================
 
 This plugin is designed to make the first menu on each site show the menu items from the main site. If you want to manage multiple menus from the main site use <https://github.com/jasonroman/network-wide-menus>.
 
